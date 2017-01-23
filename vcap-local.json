@@ -1,0 +1,37 @@
+{
+    "services": {
+      "watson_vision_combined": [
+        {
+          "credentials": {
+            "url": "https://gateway-a.watsonplatform.net/visual-recognition/api",
+            "note": "This is your previous free key. If you want a different one, please wait 24 hours after unbinding the key and try again.",
+            "api_key": "9c0fc6981f4fa7d5e8e4a3abacec40c29c3502de"
+          },
+          "syslog_drain_url": null,
+          "label": "watson_vision_combined",
+          "provider": null,
+          "plan": "free",
+          "name": "visual-recognition-photo-analyzer",
+          "tags": [
+            "watson",
+            "ibm_created",
+            "ibm_dedicated_public"
+          ]
+        }
+      ],
+        "cloudantNoSQLDB": [
+          {
+             "name": "cloudant-photo-analyzer",
+             "label": "cloudantNoSQLDB",
+             "plan": "Shared",
+             "credentials": {
+                "username": "66daa96c-1a89-4d39-9403-826abaa476f8-bluemix",
+                "password": "86e56090d832c4011fbb830b20792195a2ad55b76453f6c68f65fac3b518975a",
+                "host": "66daa96c-1a89-4d39-9403-826abaa476f8-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://66daa96c-1a89-4d39-9403-826abaa476f8-bluemix:86e56090d832c4011fbb830b20792195a2ad55b76453f6c68f65fac3b518975a@66daa96c-1a89-4d39-9403-826abaa476f8-bluemix.cloudant.com"
+             }
+          }
+       ]
+    }
+}
